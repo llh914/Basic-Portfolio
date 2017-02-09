@@ -1,14 +1,7 @@
-/*html {
-  height: 100%;
-  box-sizing: border-box;
-}*/
-
 body{
 	margin:0;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-/*	  position: relative;
-  min-height: 100%;*/
 }
 
 .container {
@@ -63,8 +56,7 @@ h2 {
 	padding: 20px;
 	overflow: auto;
 	background-image: url("../images/background.png");
-	height: auto;
-
+/*	width: 960px;*/
 }
 
 .main-section {
@@ -133,23 +125,12 @@ input {
 .fields {
 	margin-bottom: 15px;
 	width: 100%;
-	color: #777777;
-}
-
-.input{
-	height: 20px;
-	
+	/*height: 20px;*/
+	font-size: 20px
 }
 
 label {
 	margin-bottom: 5px;
-}
-
-.submit {
-	background: #4aaaa5;
-	color: #ffffff;
-	border: 0;
-	padding: 10px;
 }
 
 .footer{
@@ -159,8 +140,4 @@ label {
 	color: #b9b9b9;
 	text-align:center;
 	border-top: 10px solid #4aaaa5;
-	/*position: absolute;
-	right: 0;
-  	bottom: 0;
-  	left: 0;*/
 }
